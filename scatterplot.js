@@ -681,7 +681,7 @@ key.append('text')
 		.style("color","black")
 		.style("font-size",30)
 		//.attr("font-weight","bold")
-		.text("P(Hierarchical Merger)")
+		.text("P(Multigenerational Merger)")
 
 var poplegend = d3.select(".poplegend")
 				.style("left",(2*margin.left) + (2*margin.right) + (scatter_width))
@@ -699,6 +699,26 @@ var poplegend = d3.select(".poplegend")
 	    .style("top",0)
 		.style("width",200)
 		.style("height",100)
+
+var title = d3.select("#title")
+  .attr("width", w)
+  .attr("height", h)
+  .style('top',500)
+  .style('left',0)
+  .attr("transform", "translate(500,80)")
+
+  .append("text")
+  .attr("id","legendlabel")
+		.attr('x',0)
+		.attr('y',0)
+		.style("fill","black")
+		.style("color","black")
+		.style("font-size",60)
+		.attr("font-weight","bold")
+		.text("Are LIGO's Black Hole Mergers Multigenerational?")
+
+
+
 //runs on load
 d3.csv('data/HeavyHierarchical.csv')
 	.then(function(d) {
