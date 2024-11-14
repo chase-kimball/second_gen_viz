@@ -14,4 +14,4 @@ For each of the 44 BBH mergers, we take their masses and spins, together with th
 
 While the analysis in Kimball et al. 2020 explores a range of globular cluster models for the dynamical environment of BBH mergers, this visualization only includes the results assuming a dynamical environment with an escape velocity of 300 km/s, which is very large for a typical globular cluster, but may be typical of environments like active galactic nuclei.
 
-This visualization was (poorly) written in CSS, HTML, and Javascript with the use of the [D3.js](https://d3js.org/) library
+This visualization was written in CSS, HTML, and Javascript with the use of the [D3.js](https://d3js.org/) library
