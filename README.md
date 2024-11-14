@@ -4,7 +4,7 @@ LIGO's [GWTC-2 catalog](https://arxiv.org/abs/2010.14527) of GW observations is 
 
 ## Visualizing Multigenerational Inference
 ##### Static Preview
-<img src="static_preview_second_gen_viz.png" width="600">
+<img src="static_preview_second_gen_viz.png" width="1000">
 
 [Click here for a live version of the visualization](https://ageller.github.io/IDEAS_FSS-Vis/FinalStudentProjects/2021winter/ChaseKimball/index.html)
 
